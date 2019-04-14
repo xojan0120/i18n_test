@@ -1,0 +1,7 @@
+= link_to 'ja', users_path, class: 'btn btn-default'
+= link_to 'en', users_path + '?locale=en', class: 'btn btn-default'
+
+.i18n_test
+  | i18n test -> #{t :hello}
+.i18n_test
+  | i18n not found test -> #{@msg}
